@@ -1,0 +1,83 @@
+
+
+/* .bmain {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('src/assets/expenditure.jpg');
+  margin: 0;
+  padding: 0;
+}
+
+.main h2 {
+  font-size: 28px;
+  color: #3700ff;
+}
+
+.container {
+  background-color: #4da9a9;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #f0f4f8;
+}
+
+.container h3, .container h2 {
+  margin-top: 20px;
+  color: #f8eded;
+}
+
+.container h2 {
+  color: #fcfdfd;
+}
+
+.container p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.expense-list {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background-color: #f9f9f9;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border-left: 4px solid #2196f3;
+}
+ */

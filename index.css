@@ -1,0 +1,508 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bhead{
+    width: 100%;
+   background-image: url('src/assets/expenditure.jpg');
+   background-repeat: no-repeat;
+  background-size: cover;
+   color: #000000;
+    align-content: center;
+     /* background-image: url('src/assets/expenditure.jpg'); */
+     padding: 0;
+     margin: 0;
+}
+
+.bmain {
+  text-align: center;
+  margin-top: 30px;
+  background-image: url('src/assets/expenditure.jpg');
+  height: 100vh;
+   width: 100vw;
+  backdrop-filter: blur(5px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main h2 {
+  font-size: 28px;
+  color: #3700ff;
+}
+
+.container {
+   backdrop-filter: blur(5px);
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #bbcae4;
+}
+
+.container h3, .container h2 {
+  margin-top: 20px;
+  color: #f8eded;
+}
+
+.container h2 {
+  color: #fcfdfd;
+}
+
+.container p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.expense-list {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background-color: #f9f9f9;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border-left: 4px solid #2196f3;
+}
+.SMain{
+    padding: 20px;
+    margin: 0;
+    background-color: #f8eded;
+}
+.Shead{
+    position: relative;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 30px;
+    
+}
+.Scontainer {
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(10, 50px);
+  background-image: url('src/assets/sl1.jpeg');
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  margin-bottom: 20px;
+}
+
+
+.tile {
+  border: 1px solid rgb(232, 24, 24);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  /* background-color: rgba(255, 255, 255, 0.6); */
+}
+
+.tile div {
+  display: flex;
+  gap: 2px;
+}
+
+
+.tile div div {
+  width: 10px;
+  height: 10px;
+  background-color: red; 
+  margin: 1px;
+  border-radius: 50%;
+}
+
+
+.btn1 {
+  margin: 5px;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+btn1:hover {
+  background-color: #0056b3;
+}
+
+btn1:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+
+btn1-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.game-over {
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+.dashboard-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.dashboard-content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.game-list {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.game-list li {
+  margin: 20px 0;
+}
+
+.game-list li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.game-list li a:hover {
+  transform: scale(1.1);
+}
+
+.game-list img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.dashboard-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.dashboard-content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.game-list {
+  list-style: none;
+  padding: 0;
+}
+
+.game-list li {
+  margin: 20px 0;
+}
+
+.game-list li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.game-list li a:hover {
+  transform: scale(1.1);
+}
+
+.game-list img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.Login-page{
+  height: 100vh;
+  width: 100vw;
+  background-image: url('src/assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  left: 100px;
+}
+.login-card{
+  height: 200px;
+  width: 400px;
+  position: relative;
+  display: flex;
+  left: 550px;
+  top: 200px;
+  backdrop-filter: blur(5px);
+  max-width: 600px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+
+}
+.login-card > .loginh {
+  position: relative;
+  display: flex;
+  backdrop-filter: blur(5px);
+  top: -100px;
+  left: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.login-card>.email{
+  position: relative;
+  display: flex;
+  left: -20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.login-card>.password1{
+  position: relative;
+  display: flex;
+  left: -30px;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.Signup-page{
+  background-image: url('src/assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.Signin-card{
+  height: 400px;
+  width: 300px;
+  position: relative;
+  display: flex;
+  left: 600px;
+  top: 100px;
+  backdrop-filter: blur(5px);
+  max-width: 600px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+
+}
+.app{
+  background-image: url('src/assets/BMI.jpg');
+  height: 100vh;
+  width:100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:0;
+  margin: 0;
+
+}
+.container{
+  position: relative;
+  color: black;
+ background: linear-gradient(120deg,white,grey,white);
+ box-shadow: 5px 5px 5px 10px grey;
+ top: 5px;
+  
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: silver;
+  
+}
+.container{
+  box-shadow: 0px 0px 12px rgb(126, 115, 115);
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: rgb(216, 247, 229);
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+}
+.input{
+  width:100%;
+  font-size: 1.2rem;
+  padding: 8px 4px;
+  border-radius: 8px;
+}
+.btn{
+  display:block;
+  width:100%;
+  font-size:1.2rem;
+  padding: 10px 0;
+  margin:8px 0;
+  border-radius: 8px;
+  background-color: #333;
+  color: white;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: grey;
+}
+.btn-outline{
+  background-color: white;
+  color: #333;
+}
+.center{
+  text-align: center;
+  margin: 24px 0;
+}
+p{
+  margin :10px 0;
+}
+.img-container{
+  height: 100px;
+  width: 100px;
+  
+  
+}
+.img-container img{
+  position: relative;
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.btn-theme{
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+} 
+.boxx{
+  background-image: url('src/assets/clock.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  
+}
+.stopwatch{
+  height: 300px;
+  width:500px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  border: 1px solid black;
+  background:linear-gradient(20deg,white,rgb(181, 228, 181));
+  left: 500px;
+  top: 200px;
+}
+.timer{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+
+}
+.wbtn{
+  gap: 20px;
+  
+}
